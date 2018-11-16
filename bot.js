@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = ">>";
+var prefix = "-";
 
 client.on("message", message => {
 
@@ -19,13 +19,13 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : i1Suhaib`);
+      console.log(`PandaBot- Script By : M7MEDYT`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : M7MEDYT ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`M♡H Forever`,"http://twitch.tv/idk")
-client.user.setStatus("dnd")
+client.user.setGame(`PandaH Forever`,"http://twitch.tv/PandaH")
+client.user.setStatus("PandaH")
 });
 
 client.on("message", message => {
@@ -43,7 +43,7 @@ message.delete();
 });
 
 client.on('message', message => {
-var prefix = ">>";
+var prefix = "-";
 
     if (message.author.id === client.user.id) return;
     if (message.guild) {
